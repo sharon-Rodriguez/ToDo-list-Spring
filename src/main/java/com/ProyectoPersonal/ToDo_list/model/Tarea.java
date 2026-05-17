@@ -19,14 +19,15 @@ public class Tarea {
     }
 
 //    setter
+    public void setId(long id) { this.id = id; }
+    public void setTitulo(String titulo) { this.titulo = titulo; }
+    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
+    public void setCompleta(boolean completa) { this.completa = completa; }
+
+
+//    getter
     public long getId() { return id; }
     public String getTitulo() { return titulo; }
     public String getDescripcion() { return descripcion; }
     public boolean isCompleta() { return completa; }
-
-//    getter
-    public long setId() { return id; }
-    public String setTitulo() { return titulo; }
-    public String setDescripcion() { return descripcion; }
-    public void setCompleta(boolean completa) { this.completa = completa; }
 }
