@@ -31,7 +31,7 @@ public class TareaController {
     }
 
     @DeleteMapping ("/{id}")
-    public void Eliminar(@RequestBody Long id){
+    public void Eliminar(@PathVariable Long id){
         tareaService.EliminarTarea(id);
     }
 
